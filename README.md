@@ -33,11 +33,18 @@ Press CTRL+C to quit
 # API Document
 auth login 
 http://localhost:5001/apidocs/
+
 book service 
 http://localhost:5002/apidocs/
+
 book borrow service
 http://localhost:5003/apidocs/
 
 # DB file mysql
 library_db.sql
+
+# API SWAGGER
+![screenshot](img/5001.png)
+![screenshot](img/5002.png)
+![screenshot](img/5003.png)
 
