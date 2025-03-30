@@ -48,3 +48,14 @@ library_db.sql
 ![screenshot](img/5002.png)
 ![screenshot](img/5003.png)
 
+
+# RUN Docker file
+
+Build the Docker image:
+
+docker build -t microservices-app .
+
+Run the container:
+
+docker run -p 5001:5001 -p 5002:5002 -p 5003:5003 microservices-app
+
