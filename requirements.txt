@@ -1,0 +1,5 @@
+# requirements.txt
+Flask
+flask-jwt-extended
+mysql-connector-python
+flasgger
